@@ -1,0 +1,7 @@
+.search-input{
+    @apply w-full h-12 border-2 border-orange bg-transparent rounded-md p-2 text-white text-[18px] outline-none
+}
+
+.search-button{
+    @apply absolute w-[85px] h-[40px] bg-orange text-gray text-lg font-medium right-1 top-1 rounded-sm
+}

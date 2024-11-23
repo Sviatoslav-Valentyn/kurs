@@ -1,0 +1,25 @@
+@import-normalize;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #222020;
+}
+
+.app,
+.container{
+  max-width: 850px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* .header-input{
+  @apply header-input w-full h-12 border-2 border-orange bg-transparent rounded-md
+} */
+
+pre {
+  background-color: #434040;
+  padding: 2px 8px;
+}

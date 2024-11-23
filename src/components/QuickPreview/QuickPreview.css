@@ -1,0 +1,7 @@
+.overlay {
+    @apply w-full h-full fixed top-0 left-0 bg-white bg-opacity-20 flex items-end
+}
+
+.modal {
+    @apply overflow-y-scroll scrollbar-hide whitespace-nowrap h-[500px] bg-gray rounded-t-3xl border-2 border-orange px-4 py-2 z-10
+}
